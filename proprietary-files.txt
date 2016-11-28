@@ -1,0 +1,15 @@
+# Camera
+lib/hw/camera.redhookbay.so:lib/hw/camera.vendor.redhookbay.so
+# Wifi
+etc/wifi/bcmdhd_a500cg.cal
+etc/wifi/bcmdhd_a600cg.cal
+etc/firmware/fw_bcmdhd_43362.bin
+etc/firmware/fw_bcmdhd_43362_apsta.bin
+# Bluetooh
+etc/firmware/BCM2076B1_002.002.004.0138.0139.hcd
+# Configuration files
+vendor/firmware/telephony/hash
+vendor/firmware/telephony/mmgr_upgrade.sh
+vendor/firmware/telephony/patch_nvm_THA.tlv
+vendor/firmware/telephony/XMM_6360_A500CG_REV20_1515.03_LPDDR1_MIPI_FLASHLESS.fls
+vendor/firmware/telephony/XMM_6360_A600CG_REV20_1515.03_LPDDR1_MIPI_FLASHLESS.fls
