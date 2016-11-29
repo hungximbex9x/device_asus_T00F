@@ -2,8 +2,9 @@
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
 
+
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := aosp_T00F
+PRODUCT_NAME := aokp_T00F
 PRODUCT_BRAND := asus
 PRODUCT_MODEL := ASUS_T00F
 PRODUCT_MANUFACTURER := asus
@@ -19,9 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/asus/T00F/device.mk)
+$(call inherit-product, vendor/aokp/config/common_full_phone.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/asus/T00F/overlay
+
 PRODUCT_RUNTIMES := runtime_libart_default
-
-
 
